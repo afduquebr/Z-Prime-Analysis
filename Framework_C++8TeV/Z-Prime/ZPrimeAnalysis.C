@@ -1,4 +1,4 @@
-        #define ZprimeAnalysis_cxx
+        #define ZPrimeAnalysis_cxx
         // The following methods are defined in this file:
         //    Begin():        called every time a loop on the tree starts,
         //                    a convenient place to create your histograms.
