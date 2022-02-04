@@ -88,7 +88,7 @@ void ZPrimeAnalysis::WriteHistograms()
   hist_vismass->Write();
   hist_mt->Write();
 
-  Mass Histograms
+  // Mass Histograms
   hist_ZPrimeMass->Write();
   hist_FirstTwoJetsMass->Write();
   hist_FirstThreeJetsMass->Write();
