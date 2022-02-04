@@ -25,9 +25,9 @@ class ZPrimeAnalysis : public TSelector {
   TH1F *hist_pvxp_n       = 0;
   TH1F *hist_vismass      = 0;
   TH1F *hist_mt      = 0;
-  TH1F *hist_mzp      = 0;
-  TH1F *hist_m2jets      = 0;
-  TH1F *hist_m3jets      = 0;
+  TH1F *hist_ZPrimeMass           = 0;
+  TH1F *hist_FirstTwoJetsMass        = 0;
+  TH1F *hist_FirstThreeJetsMass      = 0;
   // Leading Lepton histograms
   TH1F *hist_leadleptpt   = 0;
   TH1F *hist_leadlepteta  = 0;
