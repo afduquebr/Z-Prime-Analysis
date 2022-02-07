@@ -1,7 +1,7 @@
 #include "TROOT.h"
 #include "TChain.h"
 #include "TFile.h"
-#include "TProof.h"
+//#include "TProof.h"
 
 void main_ZPrime(int proof)
 {
@@ -189,55 +189,55 @@ void main_ZPrime(int proof)
   chain_data->Process("ZPrimeAnalysis.C+","data");
 
 
-  if (proof == 1)
-  {
-    TProof::Open("");
+  // if (proof == 1)
+  // {
+    // TProof::Open("");
+    //
+    // chain_WW->SetProof();
+    // chain_WZ->SetProof();
+    // chain_ZZ->SetProof();
+    // chain_stop_tchan_top->SetProof();
+    // chain_stop_tchan_antitop->SetProof();
+    // chain_stop_schan->SetProof();
+    // chain_stop_wtchan->SetProof();
+    // chain_ZPrime400->SetProof();
+    // chain_ZPrime500->SetProof();
+    // chain_ZPrime750->SetProof();
+    // chain_ZPrime1000->SetProof();
+    // chain_ZPrime1250->SetProof();
+    // chain_ZPrime1500->SetProof();
+    // chain_ZPrime1750->SetProof();
+    // chain_ZPrime2000->SetProof();
+    // chain_ZPrime2250->SetProof();
+    // chain_ZPrime2500->SetProof();
+    // chain_ZPrime3000->SetProof();
+    // chain_ttbar_had->SetProof();
+    // chain_ttbar_lep->SetProof();
+    // chain_Z_ee->SetProof();
+    // chain_Z_mumu->SetProof();
+    // chain_Z_tautau->SetProof();
+    // chain_ggH125_ZZ4lep->SetProof();
+    // chain_VBFH125_ZZ4lep->SetProof();
+    // chain_ggH125_WW2lep->SetProof();
+    // chain_VBFH125_WW2lep->SetProof();
+    // chain_WenuWithB->SetProof();
+    // chain_WenuJetsBVeto->SetProof();
+    // chain_WenuNoJetsBVeto->SetProof();
+    // chain_WmunuWithB->SetProof();
+    // chain_WmunuJetsBVeto->SetProof();
+    // chain_WmunuNoJetsBVeto->SetProof();
+    // chain_WtaunuWithB->SetProof();
+    // chain_WtaunuJetsBVeto->SetProof();
+    // chain_WtaunuNoJetsBVeto->SetProof();
+    // chain_DYeeM08to15->SetProof();
+    // chain_DYeeM15to40->SetProof();
+    // chain_DYmumuM08to15->SetProof();
+    // chain_DYmumuM15to40->SetProof();
+    // chain_DYtautauM08to15->SetProof();
+    // chain_DYtautauM15to40->SetProof();
+    // chain_data->SetProof();
 
-    chain_WW->SetProof();
-    chain_WZ->SetProof();
-    chain_ZZ->SetProof();
-    chain_stop_tchan_top->SetProof();
-    chain_stop_tchan_antitop->SetProof();
-    chain_stop_schan->SetProof();
-    chain_stop_wtchan->SetProof();
-    chain_ZPrime400->SetProof();
-    chain_ZPrime500->SetProof();
-    chain_ZPrime750->SetProof();
-    chain_ZPrime1000->SetProof();
-    chain_ZPrime1250->SetProof();
-    chain_ZPrime1500->SetProof();
-    chain_ZPrime1750->SetProof();
-    chain_ZPrime2000->SetProof();
-    chain_ZPrime2250->SetProof();
-    chain_ZPrime2500->SetProof();
-    chain_ZPrime3000->SetProof();
-    chain_ttbar_had->SetProof();
-    chain_ttbar_lep->SetProof();
-    chain_Z_ee->SetProof();
-    chain_Z_mumu->SetProof();
-    chain_Z_tautau->SetProof();
-    chain_ggH125_ZZ4lep->SetProof();
-    chain_VBFH125_ZZ4lep->SetProof();
-    chain_ggH125_WW2lep->SetProof();
-    chain_VBFH125_WW2lep->SetProof();
-    chain_WenuWithB->SetProof();
-    chain_WenuJetsBVeto->SetProof();
-    chain_WenuNoJetsBVeto->SetProof();
-    chain_WmunuWithB->SetProof();
-    chain_WmunuJetsBVeto->SetProof();
-    chain_WmunuNoJetsBVeto->SetProof();
-    chain_WtaunuWithB->SetProof();
-    chain_WtaunuJetsBVeto->SetProof();
-    chain_WtaunuNoJetsBVeto->SetProof();
-    chain_DYeeM08to15->SetProof();
-    chain_DYeeM15to40->SetProof();
-    chain_DYmumuM08to15->SetProof();
-    chain_DYmumuM15to40->SetProof();
-    chain_DYtautauM08to15->SetProof();
-    chain_DYtautauM15to40->SetProof();
-    chain_data->SetProof();
-
-  }
+  // }
 
 }
 
