@@ -7,7 +7,7 @@ void main_ZPrime(int proof)
 {
   // path to your local directory *or* URL, please change the default one!
   /* Local path example */
-  TString path = "./../../../ROOT_Files/";
+  TString path = "home/navilap/ROOT_Files/";
 
 
   TChain* chain_WW = new TChain("mini");
