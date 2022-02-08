@@ -11,7 +11,7 @@ void main_ZPrime(int proof)
 
 
   TChain* chain_WW = new TChain("mini");
-  chain_WW->AddFile(path+"MC/MC/mc_105985.WW.root");
+  chain_WW->AddFile(path+"MC/mc_105985.WW.root");
   chain_WW->Process("ZPrimeAnalysis.C+","WW");
 
   TChain* chain_ZZ = new TChain("mini");
