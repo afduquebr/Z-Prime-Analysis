@@ -21,7 +21,7 @@ TH1F *h_zjets;
 TH1F *h_singletop;
 TH1F *h_ttbar;
 
-std::string histname = "hist_leadleptpt";
+std::string histname = "hist_leadjet_MV1";
 float lumi = 1000.;
 //int rebin = 20; //20 - ZmInv //4 - wmt //1 - event selection
 bool logy = true;
